@@ -1,0 +1,9 @@
+{
+    "name": "Nord",
+    "description": "Inspired by the deep dark blues of the ocean",
+    "version": "1.0.0",
+    "author": "Daggy",
+    "license": "MIT",
+    "theme": "./nord.css"
+}
+ 
