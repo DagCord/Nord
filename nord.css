@@ -1,5 +1,5 @@
 /* 
-    Copyright (c) 2020 Equity
+    Copyright (c) 2020 Daggy
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -63,45 +63,53 @@
 .theme-dark .autocomplete-1vrmpx { background-color: var(--background-tertiary) }
 .theme-dark .selected-1Tbx07 { background-color: var(--background-secondary); }
 
-.item-2hkk8m {
+.theme-dark .item-2hkk8m {
     background-color: var(--header-primary);
 }
 
-svg {
+/* Assets are all white*/
+.theme-dark svg {
     color: #5c6b80;
 }
 
-.mentioned-xhSam7:before {
+/* Discord mentions*/
+.theme-dark .mentioned-xhSam7:before {
     background-color: #6ba9ff;
 }
 
-.mentioned-xhSam7 {
+.theme-dark .mentioned-xhSam7 {
     background-color: var(--nord-input-box);
 }
 
-code {
+/* Discord Codeblocks */
+.theme-dark code {
     background-color: var(--nord-input-box);
 }
 
-.hljs {
+.theme-dark .hljs {
     background-color: var(--nord-input-box);
 }
 
-.embed-IeVjo5 {
+/* Embeds with no explicit color set*/
+.theme-dark .embed-IeVjo5 {
     border-color: var(--background-primary);
 }
-rect[mask="url(#svg-mask-status-dnd)"] {
+
+/* Do not Disturb Status*/
+.theme-dark rect[mask="url(#svg-mask-status-dnd)"] {
     fill: #ff6c5c;
 }
-
-.numberBadge-2s8kKX {
+/* Mention Badge*/
+.theme-dark .numberBadge-2s8kKX {
     background-color: #ff6c5c !important;
 }
-.open-6_Y_aH {
+/* Search Modal */
+.theme-dark .open-6_Y_aH {
     background-color: var(--background-secondary);
 }
 
-.blockquoteContainer-U5TVEi {
+/* Quote */
+.theme-dark .blockquoteContainer-U5TVEi {
     background-color: var(--background-secondary-alt);
     
 }

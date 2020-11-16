@@ -1,13 +1,28 @@
-# Eventide, a dark discord theme
+# Nord
 
-Eventide is a discord dark theme that was made to emulate the blue-purple aspect of a sunset. It was written with
-minimalism and configurability in mind so it can be easy to change, fix, and improve.
+Thanks to Equity for her help. Based on her theme [Eventide](https://github.com/Equity/Eventide)
 
-![Theme in use](https://i.imgur.com/8OYYSYz.png)
+Color scheme inspired from my Fav Vscode theme [Atlantic-Night](https://github.com/mrpbennett/atlantic-night-vscode-theme/)
+
+# Screenshots 
+![Theme in use](https://imgur.com/q6XLHlQ.png)
+![More Stuff](https://i.imgur.com/cLG4vBR.png)
+![Stop](https://i.imgur.com/nroe675.png)
+![Done](https://i.imgur.com/LpiYRhi.png)
 
 # Usage
 
-You can either just copy the [`eventide.css`](eventide.css) file to have no updates, or insert the lines below for automatic updates. 
+## Powercord
+
+### Cloning the Repo
+
+Simply clone the repo in your `Powercord/src/powercord/themes` and apply it. Thats all it takes
+
+### Simple CSS
+
+make a folder called `Nord` in the `Powercord/src/powercord/themes` and add the file:
+
+`nord.css`
 
 ```css
 @import url(https://equity.github.io/Eventide/eventide.css);
@@ -16,6 +31,13 @@ Note, this requires the theme on Discord to be internally be set to Dark.
   You can do this by Settings > Appearance > Theme
 */
 ```
+
+and copy the `powercord_manifest.json` in the repo
+
+
+## BetterDiscord
+
+Soon
 
 # Notice
 
