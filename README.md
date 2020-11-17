@@ -4,6 +4,8 @@ Thanks to Equity for her help. Based on her theme [Eventide](https://github.com/
 
 Color scheme inspired from my Fav Vscode theme [Atlantic-Night](https://github.com/mrpbennett/atlantic-night-vscode-theme/)
 
+Spcial SyntaxHighlighting from Highlightjs theme [Nord](https://github.com/arcticicestudio/nord-highlightjs)
+
 # Screenshots 
 ![Theme in use](https://imgur.com/q6XLHlQ.png)
 ![More Stuff](https://i.imgur.com/cLG4vBR.png)
@@ -16,16 +18,14 @@ Color scheme inspired from my Fav Vscode theme [Atlantic-Night](https://github.c
 
 ### Cloning the Repo
 
-Simply clone the repo in your `Powercord/src/powercord/themes` and apply it. Thats all it takes
+Simply clone the repo in your `powercord/src/Powercord/themes` and apply it. Thats all it takes
 
 ### Simple CSS
 
-make a folder called `Nord` in the `Powercord/src/powercord/themes` and add the file:
-
-`nord.css`
+Simply go to the `themes` menu in powercord and enter the following in the `Quick Css`
 
 ```css
-@import url(https://equity.github.io/Eventide/eventide.css);
+@import url(https://raw.githubusercontent.com/Daggy1234/Nord/nord.css);
 /* 
 Note, this requires the theme on Discord to be internally be set to Dark.
   You can do this by Settings > Appearance > Theme
