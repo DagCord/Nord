@@ -7,10 +7,20 @@ Color scheme inspired from my Fav Vscode theme [Atlantic-Night](https://github.c
 Spcial SyntaxHighlighting from Highlightjs theme [Nord](https://github.com/arcticicestudio/nord-highlightjs)
 
 # Screenshots 
-![Theme in use](https://imgur.com/q6XLHlQ.png)
+![Theme in use](https://i.imgur.com/JypZ54R.png)
 ![More Stuff](https://i.imgur.com/cLG4vBR.png)
-![Stop](https://i.imgur.com/nroe675.png)
-![Done](https://i.imgur.com/LpiYRhi.png)
+![Stop](https://i.imgur.com/tiAM9HR.png)
+![Done](https://i.imgur.com/mw60T5w.png)
+
+Please note in the screenshots above the following extra CSS was used to change codeblock font
+```css
+@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
+code{
+  font-family: 'JetBrains Mono';
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  text-rendering: optimizeLegibility;
+}
+```
 
 # Usage
 
@@ -43,3 +53,4 @@ Soon
 
 * The theme is licensed under the MIT license. By you using it you agree to the terms described in it
 * The theme solely changes Discord's colors to its own, it does not add any extra features. 
+* Special Thanks to equity for her help with this theme
