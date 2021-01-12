@@ -47,7 +47,9 @@ and copy the `powercord_manifest.json` in the repo
 
 ## BetterDiscord
 
-Soon
+1. Download the BetterDiscord theme file from [here](https://github.com/Daggy1234/Nord/blob/master/BetterDiscord/Nord.theme.css).
+2. Locate your BetterDiscord themes folder by clicking the "Open Themes Folder" button in your themes tab.
+3. Enable the theme.
 
 # Notice
 
