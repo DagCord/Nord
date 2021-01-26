@@ -35,7 +35,7 @@ Simply clone the repo in your `powercord/src/Powercord/themes` and apply it. Tha
 Simply go to the `themes` menu in powercord and enter the following in the `Quick Css`
 
 ```css
-@import url(https://raw.githubusercontent.com/Daggy1234/Nord/nord.css);
+@import url(https://dagcord.github.io/Nord/nord.css);
 /* 
 Note, this requires the theme on Discord to be internally be set to Dark.
   You can do this by Settings > Appearance > Theme
@@ -47,7 +47,9 @@ and copy the `powercord_manifest.json` in the repo
 
 ## BetterDiscord
 
-Soon
+1. Download the BetterDiscord theme file from [here](https://github.com/Daggy1234/Nord/blob/master/BetterDiscord/Nord.theme.css).
+2. Locate your BetterDiscord themes folder by clicking the "Open Themes Folder" button in your themes tab.
+3. Enable the theme.
 
 # Notice
 
