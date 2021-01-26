@@ -7,9 +7,9 @@ Color scheme inspired from my Fav Vscode theme [Atlantic-Night](https://github.c
 Spcial SyntaxHighlighting from Highlightjs theme [Nord](https://github.com/arcticicestudio/nord-highlightjs)
 
 # Screenshots 
-![Theme in use](https://i.imgur.com/JypZ54R.png)
-![More Stuff](https://i.imgur.com/cLG4vBR.png)
-![Stop](https://i.imgur.com/tiAM9HR.png)
+![Theme in use](https://daggy.questionable.link/b3De39.png)
+![More Stuff](https://daggy.questionable.link/1SZPc7.png)
+![Stop](https://daggy.questionable.link/RcABKg.png)
 ![Done](https://i.imgur.com/mw60T5w.png)
 
 Please note in the screenshots above the following extra CSS was used to change codeblock font
