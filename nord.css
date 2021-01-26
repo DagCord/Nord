@@ -16,6 +16,8 @@
     --nord-tertiary: #000720;
     --nord-accent-color : #dadfe1;
     --nord-input-box: #396cb335;
+    --nord-frost-blue: #88c0d0;
+    --nord-frost-dark-blue: #5e81ac;
 
     /* Scrollbar */
     --nord-scrollbar-track: var(--nord-primary);
@@ -36,9 +38,10 @@ html.theme-light::before {
     --background-secondary: var(--nord-secondary);
     --background-secondary-alt: var(--nord-secondary-alt);
     --background-tertiary: var(--nord-tertiary);
-    --background-accent: var(--background-primary);
+    --background-accent: var(--nord-frost-blue);
     --header-primary: var(--nord-accent-color);
     --interactive-active: var(--nord-accent-color);
+    --local-bot-side: var(--nord-frost-blue);
     /* Chat input box */
     --channeltextarea-background: var(--nord-input-box);
     --scrollbar-auto-thumb: var(--nord-secondary);
@@ -105,11 +108,24 @@ html.theme-light::before {
 
 /* Do not Disturb Status*/
 .theme-dark rect[mask="url(#svg-mask-status-dnd)"] {
-    fill: #ff6c5c;
+    fill: #bf616a;
 }
+
+.theme-dark rect[mask="url(#svg-mask-status-online)"] {
+  fill: #a3be8c;
+}
+
+.theme-dark rect[mask="url(#svg-mask-status-idle)"] {
+  fill: #ebcb8b;
+}
+
+.theme-dark rect[mask="url(#svg-mask-status-online-mobile)"] {
+  fill: #a3be8c;
+}
+
 /* Mention Badge*/
 .theme-dark .numberBadge-2s8kKX {
-    background-color: #ff6c5c !important;
+    background-color: var(--nord-frost-dark-blue)!important;
 }
 /* Search Modal */
 .theme-dark .open-6_Y_aH {
@@ -124,12 +140,60 @@ html.theme-light::before {
 
 /* New Reply*/
 .repliedMessage-VokQwo:before {
-    border-color: var(--interactive-active);
+    border-color: white;
 }
+
+.theme-dark .repliedMessage-VokQwo {
+  background-color: var(--background-secondary-alt);
+  padding: 0.5em;
+  width: fit-content;
+} */ 
+
 
 /* Context Menus*/
 .thin-1ybCId {
     background-color: var(--background-secondary);
+}
+
+.theme-dark .isUnread-3Ef-o9 {
+  border-color: var(--nord-frost-blue);
+}
+.theme-dark .unreadPill-2HyYtt {
+  fill: var(--nord-frost-blue);
+  background-color: var(--nord-frost-blue);
+}
+
+
+/* Unread Bar */
+.theme-dark .newMessagesBar-265mhP {
+  background-color: var(--nord-frost-blue);
+}
+
+/* Notifs */
+.theme-dark .unreadMentionsBar-1VrBNe  {
+  background-color: var(--nord-frost-blue);
+}
+
+/* Active FOlder */
+.theme-dark .item-2hkk8m {
+  background-color: #81a1c1;
+}
+
+/* Menu Green */
+.theme-dark .container-3auIfb {
+  background-color: #a3be8c;
+}
+
+ /* Bot tags not gay */
+.theme-dark .botTagRegular-2HEhHi {
+  transition: .5s;
+  background: rgba(114,137,218,0.1);
+  color: #7289da;
+}
+.theme-dark .botTagRegular-2HEhHi:hover {
+  transition: .5s;
+  background: #7289da;
+  color: #fff;
 }
 
 /*
